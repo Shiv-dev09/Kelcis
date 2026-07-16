@@ -6,7 +6,7 @@ import { WhyKelcis } from "@/components/marketing/WhyKelcis";
 import { HowWeWork } from "@/components/marketing/HowWeWork";
 import { Capabilities } from "@/components/marketing/Capabilities";
 import { Industries } from "@/components/marketing/Industries";
-import { Proof } from "@/components/marketing/Proof";
+import { FoundingCohort } from "@/components/marketing/FoundingCohort";
 import { CtaBand } from "@/components/marketing/CtaBand";
 
 export default function HomePage() {
@@ -20,7 +20,7 @@ export default function HomePage() {
       <HowWeWork />
       <Capabilities />
       <Industries />
-      <Proof />
+      <FoundingCohort />
       <CtaBand />
     </>
   );

@@ -8,7 +8,7 @@ import { company } from "@/content/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Start a conversation with Kelcis — a Dubai-based technology consultancy for companies that take service seriously.",
+    "Start a conversation with Kelcis — a technology consultancy serving the GCC, for companies that take service seriously.",
 };
 
 export default function ContactPage() {
@@ -38,25 +38,20 @@ export default function ContactPage() {
                 </a>
               </div>
               <div>
-                <p className="eyebrow mb-4 text-bronze">Office</p>
+                <p className="eyebrow mb-4 text-bronze">Region</p>
                 <p className="font-serif text-2xl font-light">
-                  {company.location}
+                  {company.region}
                 </p>
               </div>
               <div>
-                <p className="eyebrow mb-4 text-bronze">Local time</p>
+                <p className="eyebrow mb-4 text-bronze">Gulf standard time</p>
                 <Clock className="text-ink" />
               </div>
               <div>
-                <p className="eyebrow mb-4 text-bronze">Elsewhere</p>
-                <a
-                  href={company.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-serif text-2xl font-light transition-colors hover:text-bronze"
-                >
-                  LinkedIn
-                </a>
+                <p className="eyebrow mb-4 text-bronze">Response</p>
+                <p className="font-serif text-2xl font-light">
+                  We reply within one business day.
+                </p>
               </div>
             </div>
           </Reveal>

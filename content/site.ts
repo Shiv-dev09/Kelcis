@@ -2,8 +2,7 @@ export const nav = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
   { label: "Industries", href: "/industries" },
-  { label: "Case studies", href: "/case-studies" },
-  { label: "Insights", href: "/insights" },
+  { label: "Experience", href: "/experience" },
   { label: "Contact", href: "/contact" },
 ] as const;
 
@@ -115,13 +114,7 @@ export const industries = [
   "Education",
 ] as const;
 
-export const quote = {
-  text: "Kelcis rebuilt our support operation in eight weeks. Two years on, the same people still answer when we call.",
-  attribution: "Operations Director, GCC retail group",
-} as const;
-
 export const company = {
   email: "hello@kelcis.com",
-  location: "Dubai, United Arab Emirates",
-  linkedin: "https://www.linkedin.com/company/kelcis",
+  region: "Serving the GCC",
 } as const;

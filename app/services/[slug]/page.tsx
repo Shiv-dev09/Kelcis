@@ -61,6 +61,14 @@ export default async function ServiceDetailPage({
             ))}
           </div>
 
+          {service.note && (
+            <Reveal delay={0.15}>
+              <p className="mt-20 max-w-2xl border-t border-oat pt-8 font-sans text-sm leading-relaxed text-ash">
+                {service.note}
+              </p>
+            </Reveal>
+          )}
+
           <Reveal delay={0.2}>
             <Link
               href="/services"

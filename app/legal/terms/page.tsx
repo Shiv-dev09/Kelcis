@@ -23,10 +23,9 @@ export default function TermsPage() {
                 About this site
               </h2>
               <p>
-                This website is operated by Kelcis, Dubai, United Arab
-                Emirates. Its content is provided for general information
-                about our services and does not constitute professional
-                advice.
+                This website is operated by Kelcis. Its content is provided
+                for general information about our services and does not
+                constitute professional advice.
               </p>
             </div>
             <div>

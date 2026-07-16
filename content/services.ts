@@ -5,6 +5,7 @@ export type ServiceDetail = {
   intro: string;
   statement: string;
   points: { title: string; body: string }[];
+  note?: string;
 };
 
 export const serviceDetails: ServiceDetail[] = [
@@ -12,7 +13,7 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "freshworks",
     title: "Freshworks Consulting",
     metaDescription:
-      "Freshworks implementation, audits and architecture from a Dubai-based partner — Freshdesk, Freshservice, Freshsales and the full suite.",
+      "Freshworks implementation, audits and architecture — Freshdesk, Freshservice, Freshsales and the full suite, configured by an independent consultancy.",
     intro:
       "The platform was sold as simple. Making it fit your business is the craft.",
     statement:
@@ -31,6 +32,7 @@ export const serviceDetails: ServiceDetail[] = [
         body: "Multi-brand desks, shared services, group structures. We design instances that survive your next reorganisation.",
       },
     ],
+    note: "Kelcis is an independent consultancy and is not affiliated with Freshworks Inc.",
   },
   {
     slug: "managed-services",
@@ -100,6 +102,7 @@ export const serviceDetails: ServiceDetail[] = [
         body: "Integrations are products, not projects. We monitor and maintain what we ship.",
       },
     ],
+    note: "We build with the technologies that fit the job — REST APIs, middleware and tools such as n8n. Technologies we work with, not partnerships.",
   },
   {
     slug: "automation",
@@ -123,6 +126,7 @@ export const serviceDetails: ServiceDetail[] = [
         body: "Every automation has a human override and an audit trail. Quiet does not mean opaque.",
       },
     ],
+    note: "Built with tools such as n8n, native platform automations and custom code — chosen per case, documented, and owned by you.",
   },
   {
     slug: "customer-success",

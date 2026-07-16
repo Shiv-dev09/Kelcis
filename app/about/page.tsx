@@ -6,7 +6,7 @@ import { CtaBand } from "@/components/marketing/CtaBand";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Kelcis is a Dubai-based technology consultancy built around a simple belief: the best operations are boring.",
+    "Kelcis is a technology consultancy for the GCC, built around a simple belief: the best operations are boring.",
 };
 
 const values = [
@@ -34,7 +34,7 @@ export default function AboutPage() {
       <PageIntro
         eyebrow="About"
         title="A consultancy built to be kept."
-        lede="Kelcis was founded in Dubai on a simple observation: companies don't lack software — they lack partners who stay accountable for how it runs."
+        lede="Kelcis was founded on a simple observation: companies don't lack software — they lack partners who stay accountable for how it runs."
       />
 
       <section className="bg-cream">

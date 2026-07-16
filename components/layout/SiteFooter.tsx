@@ -8,15 +8,13 @@ const footerColumns = [
       { label: "About", href: "/about" },
       { label: "Services", href: "/services" },
       { label: "Industries", href: "/industries" },
-      { label: "Case studies", href: "/case-studies" },
-      { label: "Insights", href: "/insights" },
+      { label: "Experience", href: "/experience" },
     ],
   },
   {
     heading: "Connect",
     links: [
       { label: "Contact", href: "/contact" },
-      { label: "LinkedIn", href: company.linkedin },
       { label: company.email, href: `mailto:${company.email}` },
     ],
   },
@@ -35,8 +33,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-[1440px] px-6 py-20 md:px-12 md:py-28">
         <div className="grid gap-16 md:grid-cols-2">
           <p className="max-w-md font-sans text-lg font-semibold leading-snug">
-            Kelcis is a technology consultancy based in Dubai, United Arab
-            Emirates.
+            Kelcis is a technology consultancy serving the GCC.
           </p>
 
           <div className="grid grid-cols-2 gap-10 sm:grid-cols-3">
@@ -80,7 +77,13 @@ export function SiteFooter() {
             Quiet execution.
           </p>
           <p className="eyebrow text-sand">
-            © {new Date().getFullYear()} Kelcis · Dubai, UAE
+            © {new Date().getFullYear()} Kelcis · Serving the GCC ·{" "}
+            <a
+              href={`mailto:${company.email}`}
+              className="transition-colors hover:text-cream"
+            >
+              {company.email}
+            </a>
           </p>
         </div>
       </div>

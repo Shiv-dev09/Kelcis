@@ -32,7 +32,7 @@ export function Hero() {
 
         <Reveal delay={0.15}>
           <p className="mt-10 max-w-xl font-serif text-xl font-light leading-snug text-cream/90 md:text-2xl">
-            Kelcis is a Dubai-based technology consultancy. We design, run and
+            Kelcis is a technology consultancy for the GCC. We design, run and
             refine the service operations of ambitious companies — on
             Freshworks, and far beyond it.
           </p>

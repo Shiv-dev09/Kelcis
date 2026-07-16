@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     template: "%s — Kelcis",
   },
   description:
-    "Kelcis is a Dubai-based technology consultancy. We design, run and refine service operations — Freshworks consulting, managed services, integrations and automation.",
+    "Kelcis is a technology consultancy for the GCC. We design, run and refine service operations — Freshworks consulting, managed services, integrations and automation.",
   openGraph: {
     type: "website",
     locale: "en_AE",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "Kelcis",
     title: "Kelcis — Quiet execution",
     description:
-      "A Dubai-based technology consultancy for companies that take service seriously.",
+      "A technology consultancy built for companies in the Gulf that take service seriously.",
   },
   twitter: {
     card: "summary_large_image",
