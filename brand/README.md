@@ -29,6 +29,25 @@ to be installed/loaded. In the website header, prefer composing
 `kelcis-mark.svg` + live text (font already loaded there) for crisp
 rendering and theme inheritance.
 
+## Presentation template
+
+`templates/Kelcis-Presentation-Template.pptx` — 10-slide master deck,
+16:9 widescreen (13.33 x 7.5in). Slide order: cover, agenda, section
+divider, statement, two-column content, three-column grid, stats,
+process, quote, closing. Every slide carries speaker notes explaining
+its intended use.
+
+Duplicate slides rather than restyling them, and delete unused rows
+outright — never leave an empty numbered slot. Cover and closing use
+the website's hero gradient so decks and site read as one system.
+
+Fonts are Arial and Cambria, not the website's Archivo/Newsreader.
+Those are webfonts with no system equivalent, so a deck specifying them
+would substitute unpredictably on other machines. Arial and Cambria
+ship with Office everywhere and hold the same grotesque/editorial
+pairing. Install Archivo and Newsreader locally if you need exact
+brand match for a printed or PDF deliverable.
+
 ## Wordmark
 
 - Font: Space Grotesk, uppercase
