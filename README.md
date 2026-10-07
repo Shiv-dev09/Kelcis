@@ -65,6 +65,28 @@ Conventions:
 `sitemap.xml`, `robots.txt`, per-page metadata and OpenGraph tags are
 generated from the App Router (`app/sitemap.ts`, `app/robots.ts`).
 
+## Contact form
+
+`POST /api/contact` (`app/api/contact/route.ts`) validates the submission
+and sends it through Resend, with the visitor's address as `Reply-To` so
+replying from the inbox reaches them directly. A hidden `organisation`
+field acts as a honeypot: when it is filled the route returns success and
+sends nothing, giving a bot no signal.
+
+To enable delivery:
+
+1. Create a Resend account and add **`send.kelcis.com`** as a domain —
+   not the apex. Verifying a subdomain keeps the SPF/DKIM records
+   separate from the MX records that deliver mail *to* `hello@kelcis.com`,
+   so inbound email cannot be affected.
+2. Add the three DNS records Resend shows for that subdomain in GoDaddy.
+3. Put the API key in Vercel → Settings → Environment Variables as
+   `RESEND_API_KEY`, then redeploy.
+
+Without the key the route returns 500 and the form shows an error
+pointing at the email address — it never fails silently. Override the
+sender or recipient with `CONTACT_FROM_EMAIL` / `CONTACT_TO_EMAIL`.
+
 ## Accessibility & performance
 
 - Semantic landmarks, skip link, focus-visible states, labelled controls
