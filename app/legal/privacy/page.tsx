@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageIntro } from "@/components/layout/PageIntro";
+import { company } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Privacy",
@@ -18,6 +19,17 @@ export default function PrivacyPage() {
       <section className="bg-cream">
         <div className="mx-auto max-w-[1440px] px-6 py-16 md:px-12 md:py-24">
           <div className="max-w-2xl space-y-10 font-sans text-[15px] leading-relaxed text-ash">
+            <div>
+              <h2 className="mb-3 font-sans text-xl font-bold text-ink">
+                Who holds your information
+              </h2>
+              <p>
+                {company.legalName}, a free zone company registered in the
+                United Arab Emirates under licence number {company.licence},
+                is responsible for the personal information described on this
+                page. Write to {company.email} with any question about it.
+              </p>
+            </div>
             <div>
               <h2 className="mb-3 font-sans text-xl font-bold text-ink">
                 What we collect

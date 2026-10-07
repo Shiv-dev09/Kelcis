@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageIntro } from "@/components/layout/PageIntro";
+import { company } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Terms of use",
@@ -23,9 +24,11 @@ export default function TermsPage() {
                 About this site
               </h2>
               <p>
-                This website is operated by Kelcis. Its content is provided
-                for general information about our services and does not
-                constitute professional advice.
+                This website is operated by {company.legalName}, a free zone
+                company registered in the United Arab Emirates under licence
+                number {company.licence}. Its content is provided for general
+                information about our services and does not constitute
+                professional advice.
               </p>
             </div>
             <div>

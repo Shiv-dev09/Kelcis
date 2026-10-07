@@ -117,4 +117,8 @@ export const industries = [
 export const company = {
   email: "hello@kelcis.com",
   region: "Serving the GCC",
+  legalName: "Kelcis Technologies FZE LLC",
+  registration: "Registered in the UAE",
+  /** Free zone licence. Renews annually — next expiry 28 September 2027. */
+  licence: "2628421044888",
 } as const;

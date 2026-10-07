@@ -77,7 +77,8 @@ export function SiteFooter() {
             Quiet execution.
           </p>
           <p className="eyebrow text-sand">
-            © {new Date().getFullYear()} Kelcis · Serving the GCC ·{" "}
+            © {new Date().getFullYear()} {company.legalName} ·{" "}
+            {company.registration} ·{" "}
             <a
               href={`mailto:${company.email}`}
               className="transition-colors hover:text-cream"
