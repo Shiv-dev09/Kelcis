@@ -75,22 +75,22 @@ export const steps = [
   {
     number: "01",
     title: "Listen",
-    body: "We start with how your teams actually work, not how the software assumes they do. Short, structured, on site where it matters.",
+    body: "We sit with your team and watch how the work actually happens. Usually it is nothing like the documentation.",
   },
   {
     number: "02",
     title: "Design",
-    body: "A plan measured in outcomes, priced by the people who will deliver it. No handoff between the sellers and the builders.",
+    body: "You get a plan with numbers in it. The people who wrote it are the people who deliver it.",
   },
   {
     number: "03",
     title: "Build",
-    body: "Configuration, integration and automation in short, visible cycles. You see progress weekly, in your own environment.",
+    body: "We build in your environment, not ours. You see it working every week, not at the end.",
   },
   {
     number: "04",
     title: "Run",
-    body: "We stay accountable after go-live: operating, measuring and quietly improving until boring is the default.",
+    body: "We do not hand you the keys and leave. We run it until nobody thinks about it.",
   },
 ] as const;
 
