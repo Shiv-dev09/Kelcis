@@ -40,7 +40,7 @@ const sectors = [
   },
   {
     name: "Education",
-    note: "Admissions to alumni — one continuous service relationship.",
+    note: "Admissions to alumni, one continuous service relationship.",
   },
 ] as const;
 

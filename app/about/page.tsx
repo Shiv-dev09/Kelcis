@@ -20,7 +20,7 @@ const values = [
   },
   {
     title: "Say no early",
-    body: "A scope we can't deliver well is a scope we decline — before it costs you a quarter.",
+    body: "A scope we can't deliver well is a scope we decline, before it costs you a quarter.",
   },
   {
     title: "Boring is the goal",
@@ -34,7 +34,7 @@ export default function AboutPage() {
       <PageIntro
         eyebrow="About"
         title="A consultancy built to be kept."
-        lede="Kelcis was founded on a simple observation: companies don't lack software — they lack partners who stay accountable for how it runs."
+        lede="Kelcis was founded on a simple observation. Companies don't lack software. They lack partners who stay accountable for how it runs."
       />
 
       <section className="bg-cream">

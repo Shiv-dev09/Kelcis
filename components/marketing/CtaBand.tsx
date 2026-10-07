@@ -8,7 +8,7 @@ export function CtaBand() {
       <div className="mx-auto max-w-[1440px] px-6 py-28 md:px-12 md:py-40">
         <Reveal>
           <p className="max-w-xl font-serif text-xl font-light leading-snug text-ash md:text-2xl">
-            Tell us what isn&rsquo;t working — or what should work better.
+            Tell us what isn&rsquo;t working, or what should work better.
             We&rsquo;ll tell you honestly whether we&rsquo;re the right firm
             for it.
           </p>

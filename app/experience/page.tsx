@@ -7,7 +7,7 @@ import { ArrowLong } from "@/components/ui/ArrowLong";
 export const metadata: Metadata = {
   title: "Experience",
   description:
-    "The experience behind Kelcis — a decade of implementations, evaluations and rescues across ITSM and CX platforms, for companies in the GCC and India.",
+    "The experience behind Kelcis: a decade of implementations, evaluations and rescues across ITSM and CX platforms, for companies in the GCC and India.",
 };
 
 export default function ExperiencePage() {
@@ -20,7 +20,7 @@ export default function ExperiencePage() {
           <Reveal>
             <p className="max-w-4xl font-serif text-[clamp(1.6rem,3vw,2.4rem)] font-light leading-[1.2] tracking-[-0.01em]">
               The people behind Kelcis have spent the last decade inside the
-              service-platform world — leading and supporting more than a
+              service-platform world, leading and supporting more than a
               hundred implementations, evaluations and rescues across ITSM and
               CX platforms, for companies in the GCC and India, in retail,
               logistics, healthcare, BFSI and the public sector.
@@ -38,7 +38,7 @@ export default function ExperiencePage() {
             </h2>
             <p className="mt-10 max-w-2xl font-serif text-xl font-light leading-snug text-sand md:text-2xl">
               We are taking a maximum of five founding engagements, at
-              founding-client terms — priority access to our most senior
+              founding-client terms: priority access to our most senior
               people, and pricing that reflects a simple truth: we are earning
               our first public references.
             </p>

@@ -9,7 +9,7 @@ export function KelcisLockup({ className }: KelcisLockupProps) {
   return (
     <Link
       href="/"
-      aria-label="Kelcis — home"
+      aria-label="Kelcis, home"
       className={`link-arrow inline-flex items-center gap-3 ${className ?? ""}`}
     >
       <KelcisMark className="h-7 w-7" />

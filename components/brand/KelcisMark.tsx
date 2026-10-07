@@ -3,7 +3,7 @@ type KelcisMarkProps = {
 };
 
 /**
- * The Kelcis piano-key K. Master geometry — do not redraw; recolor via
+ * The Kelcis piano-key K. Master geometry, do not redraw; recolor via
  * `currentColor` and resize via className.
  */
 export function KelcisMark({ className }: KelcisMarkProps) {

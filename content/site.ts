@@ -20,7 +20,7 @@ export const services: ServiceTile[] = [
     slug: "freshworks",
     title: "Freshworks Consulting",
     description:
-      "Implementation, audits and architecture across the Freshworks suite — configured around how your teams actually work.",
+      "Implementation, audits and architecture across the Freshworks suite, configured around how your teams actually work.",
     tag: "Consulting",
     surface: "gradient",
     art: "sphere",
@@ -64,7 +64,7 @@ export const services: ServiceTile[] = [
     slug: "customer-success",
     title: "Customer Success",
     description:
-      "Adoption, renewals and growth, managed as a discipline — not a dashboard.",
+      "Adoption, renewals and growth, managed as a discipline, not a dashboard.",
     tag: "Growth",
     surface: "bronze",
     art: "none",
@@ -75,7 +75,7 @@ export const steps = [
   {
     number: "01",
     title: "Listen",
-    body: "We start with how your teams actually work — not how the software assumes they do. Short, structured, on site where it matters.",
+    body: "We start with how your teams actually work, not how the software assumes they do. Short, structured, on site where it matters.",
   },
   {
     number: "02",
@@ -90,7 +90,7 @@ export const steps = [
   {
     number: "04",
     title: "Run",
-    body: "We stay accountable after go-live — operating, measuring and quietly improving until boring is the default.",
+    body: "We stay accountable after go-live: operating, measuring and quietly improving until boring is the default.",
   },
 ] as const;
 
@@ -119,6 +119,6 @@ export const company = {
   region: "Serving the GCC",
   legalName: "Kelcis Technologies FZE LLC",
   registration: "Registered in the UAE",
-  /** Free zone licence. Renews annually — next expiry 28 September 2027. */
+  /** Free zone licence. Renews annually. Next expiry 28 September 2027. */
   licence: "2628421044888",
 } as const;

@@ -11,7 +11,7 @@ const reasons = [
   },
   {
     title: "Measured in outcomes",
-    body: "Response times, resolution rates, renewal health. We agree on the numbers before we start — and report against them.",
+    body: "Response times, resolution rates, renewal health. We agree on the numbers before we start, and report against them.",
   },
 ] as const;
 

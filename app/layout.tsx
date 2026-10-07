@@ -31,17 +31,17 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://kelcis.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Kelcis — Quiet execution",
-    template: "%s — Kelcis",
+    default: "Kelcis · Quiet execution",
+    template: "%s · Kelcis",
   },
   description:
-    "Kelcis is a technology consultancy for the GCC. We design, run and refine service operations — Freshworks consulting, managed services, integrations and automation.",
+    "Kelcis is a technology consultancy for the GCC. We design, run and refine service operations: Freshworks consulting, managed services, integrations and automation.",
   openGraph: {
     type: "website",
     locale: "en_AE",
     url: siteUrl,
     siteName: "Kelcis",
-    title: "Kelcis — Quiet execution",
+    title: "Kelcis · Quiet execution",
     description:
       "A technology consultancy built for companies in the Gulf that take service seriously.",
   },

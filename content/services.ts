@@ -13,15 +13,15 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "freshworks",
     title: "Freshworks Consulting",
     metaDescription:
-      "Freshworks implementation, audits and architecture — Freshdesk, Freshservice, Freshsales and the full suite, configured by an independent consultancy.",
+      "Freshworks implementation, audits and architecture across Freshdesk, Freshservice, Freshsales and the full suite, configured by an independent consultancy.",
     intro:
       "The platform was sold as simple. Making it fit your business is the craft.",
     statement:
-      "We implement, audit and re-architect the Freshworks suite for companies that outgrew the default setup — or never fit it in the first place.",
+      "We implement, audit and re-architect the Freshworks suite for companies that outgrew the default setup, or never fit it in the first place.",
     points: [
       {
         title: "Implementations",
-        body: "Freshdesk, Freshservice, Freshsales and Freshchat, configured around your workflows, data and reporting — not the demo environment.",
+        body: "Freshdesk, Freshservice, Freshsales and Freshchat, configured around your workflows, data and reporting, not the demo environment.",
       },
       {
         title: "Audits & rescues",
@@ -38,14 +38,14 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "managed-services",
     title: "Managed Services",
     metaDescription:
-      "Managed service operations from Kelcis — administration, optimisation and reporting with named engineers and agreed outcomes.",
+      "Managed service operations from Kelcis: administration, optimisation and reporting with named engineers and agreed outcomes.",
     intro: "The best managed service is the one you never think about.",
     statement:
-      "Kelcis runs your service platforms as if our name were on them — because to your teams, it is.",
+      "Kelcis runs your service platforms as if our name were on them. Because to your teams, it is.",
     points: [
       {
         title: "Administration",
-        body: "Releases, users, fields, rules and routing — maintained continuously, so the platform never drifts from the business.",
+        body: "Releases, users, fields, rules and routing: maintained continuously, so the platform never drifts from the business.",
       },
       {
         title: "Optimisation",
@@ -53,7 +53,7 @@ export const serviceDetails: ServiceDetail[] = [
       },
       {
         title: "Reporting",
-        body: "The numbers leadership actually reads: response, resolution, satisfaction, cost per contact — with commentary, not just charts.",
+        body: "The numbers leadership actually reads: response, resolution, satisfaction, cost per contact. With commentary, not just charts.",
       },
     ],
   },
@@ -61,7 +61,7 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "customer-support",
     title: "Customer Support",
     metaDescription:
-      "Outsourced customer support that treats every ticket as a reputation decision — trained, measured and accountable.",
+      "Outsourced customer support that treats every ticket as a reputation decision. Trained, measured and accountable.",
     intro: "Every ticket is a reputation decision.",
     statement:
       "We build and run support operations where tone, speed and accuracy are managed as carefully as cost.",
@@ -84,10 +84,10 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "integrations",
     title: "Bespoke Integrations",
     metaDescription:
-      "Custom integrations between Freshworks and the systems your business trusts — ERPs, billing, telephony, data warehouses.",
+      "Custom integrations between Freshworks and the systems your business trusts: ERPs, billing, telephony, data warehouses.",
     intro: "Your systems already work. They just don't talk.",
     statement:
-      "We build the connections between the platforms you already trust — ERPs, billing, telephony, warehouses — so data moves without people carrying it.",
+      "We build the connections between the platforms you already trust: ERPs, billing, telephony, warehouses. Data moves without people carrying it.",
     points: [
       {
         title: "Design",
@@ -95,23 +95,23 @@ export const serviceDetails: ServiceDetail[] = [
       },
       {
         title: "Build",
-        body: "APIs, middleware and webhooks with retries, logging and alerts — engineered for the day something upstream fails.",
+        body: "APIs, middleware and webhooks with retries, logging and alerts. Engineered for the day something upstream fails.",
       },
       {
         title: "Operate",
         body: "Integrations are products, not projects. We monitor and maintain what we ship.",
       },
     ],
-    note: "We build with the technologies that fit the job — REST APIs, middleware and tools such as n8n. Technologies we work with, not partnerships.",
+    note: "We build with the technologies that fit the job: REST APIs, middleware and tools such as n8n. Technologies we work with, not partnerships.",
   },
   {
     slug: "automation",
     title: "Workflow Automation",
     metaDescription:
-      "Workflow automation from Kelcis — the routine removed, with human judgement kept where it belongs.",
+      "Workflow automation from Kelcis: the routine removed, with human judgement kept where it belongs.",
     intro: "The routine, removed.",
     statement:
-      "We automate the work nobody should be doing by hand — routing, triage, approvals, follow-ups — and leave judgement where it belongs.",
+      "We automate the work nobody should be doing by hand: routing, triage, approvals, follow-ups. Judgement stays where it belongs.",
     points: [
       {
         title: "Discovery",
@@ -119,23 +119,23 @@ export const serviceDetails: ServiceDetail[] = [
       },
       {
         title: "Automation",
-        body: "Rules, bots and scheduled jobs that are documented, reversible and owned — never mystery scripts.",
+        body: "Rules, bots and scheduled jobs that are documented, reversible and owned. Never mystery scripts.",
       },
       {
         title: "Guardrails",
         body: "Every automation has a human override and an audit trail. Quiet does not mean opaque.",
       },
     ],
-    note: "Built with tools such as n8n, native platform automations and custom code — chosen per case, documented, and owned by you.",
+    note: "Built with tools such as n8n, native platform automations and custom code. Chosen per case, documented, and owned by you.",
   },
   {
     slug: "customer-success",
     title: "Customer Success",
     metaDescription:
-      "Customer success as a discipline — adoption, health and renewals managed with the same rigour as delivery.",
+      "Customer success as a discipline: adoption, health and renewals managed with the same rigour as delivery.",
     intro: "Renewals should feel like formalities.",
     statement:
-      "We run success programmes that make retention unremarkable — adoption tracked, risks surfaced early, value demonstrated on schedule.",
+      "We run success programmes that make retention unremarkable: adoption tracked, risks surfaced early, value demonstrated on schedule.",
     points: [
       {
         title: "Adoption",

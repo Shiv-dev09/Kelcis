@@ -35,10 +35,10 @@ export default function PrivacyPage() {
                 What we collect
               </h2>
               <p>
-                When you contact us, we receive the details you choose to share
-                — your name, email address and message. Our website collects
-                standard, anonymised analytics: pages visited, approximate
-                region, device type.
+                When you contact us, we receive the details you choose to
+                share: your name, email address and message. Our website
+                collects standard, anonymised analytics: pages visited,
+                approximate region, device type.
               </p>
             </div>
             <div>

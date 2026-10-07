@@ -46,7 +46,7 @@ body {
   color: var(--color-cream);
 }
 
-/* Grain overlay for gradient surfaces — parent needs position:relative */
+/* Grain overlay for gradient surfaces. Parent needs position:relative */
 .grain::after {
   content: "";
   position: absolute;

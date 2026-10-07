@@ -37,7 +37,7 @@ export function ContactForm() {
       setStatus("sent");
     } catch {
       setError(
-        `That did not send — check your connection, or write to ${company.email}.`,
+        `That did not send. Check your connection, or write to ${company.email}.`,
       );
       setStatus("error");
     }

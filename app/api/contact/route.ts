@@ -17,7 +17,7 @@ type Payload = {
   name?: unknown;
   email?: unknown;
   message?: unknown;
-  /** Honeypot — hidden from people, usually filled by bots. */
+  /** Honeypot, hidden from people and usually filled by bots. */
   organisation?: unknown;
 };
 
@@ -49,7 +49,7 @@ export async function POST(request: Request) {
   }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
     return NextResponse.json(
-      { error: "Check the email address — we reply to it." },
+      { error: "Check the email address. We reply to it." },
       { status: 400 },
     );
   }
@@ -63,7 +63,7 @@ export async function POST(request: Request) {
   // Checked after validation so bad input still gets a useful message.
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
-    console.error("RESEND_API_KEY is missing — the contact form cannot send.");
+    console.error("RESEND_API_KEY is missing. The contact form cannot send.");
     return NextResponse.json({ error: GENERIC_FAILURE }, { status: 500 });
   }
 
@@ -73,7 +73,7 @@ export async function POST(request: Request) {
       to: TO,
       replyTo: email,
       subject: `Enquiry from ${name}`,
-      text: `${message}\n\n—\n${name}\n${email}`,
+      text: `${message}\n\n--\n${name}\n${email}`,
     });
 
     if (error) {

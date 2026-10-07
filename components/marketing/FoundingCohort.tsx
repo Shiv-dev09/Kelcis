@@ -9,7 +9,7 @@ export function FoundingCohort() {
         <Reveal>
           <p className="eyebrow mb-12 text-bronze">Founding cohort</p>
           <p className="max-w-4xl font-serif text-[clamp(1.75rem,3.6vw,2.9rem)] font-light leading-[1.2]">
-            We are taking five founding clients — our most senior people on
+            We are taking five founding clients, our most senior people on
             every engagement, at terms that reflect a firm earning its first
             public references.
           </p>

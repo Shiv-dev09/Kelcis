@@ -9,7 +9,7 @@ export default function NotFound() {
         <KelcisMark className="mb-12 h-12 w-12 text-bronze" />
         <p className="eyebrow mb-6 text-sand">404</p>
         <h1 className="max-w-3xl font-serif text-[clamp(2rem,5vw,3.5rem)] font-light leading-[1.1]">
-          This page kept quiet — a little too quiet.
+          This page kept quiet. A little too quiet.
         </h1>
         <Link
           href="/"

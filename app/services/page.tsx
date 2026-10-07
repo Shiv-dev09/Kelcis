@@ -9,7 +9,7 @@ import { services } from "@/content/site";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Freshworks consulting, managed services, customer support, integrations, automation and customer success — six disciplines, one standard.",
+    "Freshworks consulting, managed services, customer support, integrations, automation and customer success. Six disciplines, one standard.",
 };
 
 export default function ServicesPage() {

@@ -12,7 +12,7 @@ export function Philosophy() {
             formalities.
           </p>
           <p className="mt-10 max-w-xl font-sans text-base leading-relaxed text-sand">
-            We build toward that kind of quiet — deliberately, measurably, and
+            We build toward that kind of quiet, deliberately, measurably, and
             on the record. Nothing ships until it works every time.
           </p>
         </Reveal>

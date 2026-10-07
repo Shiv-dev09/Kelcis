@@ -1,6 +1,6 @@
 /**
  * Wireframe line illustrations, drawn with strokes only and tinted via
- * currentColor. Decorative — always rendered with aria-hidden.
+ * currentColor. Decorative, always rendered with aria-hidden.
  */
 
 type WireProps = {

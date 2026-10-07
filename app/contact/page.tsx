@@ -8,7 +8,7 @@ import { company } from "@/content/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Start a conversation with Kelcis — a technology consultancy serving the GCC, for companies that take service seriously.",
+    "Start a conversation with Kelcis, a technology consultancy serving the GCC, for companies that take service seriously.",
 };
 
 export default function ContactPage() {
@@ -17,7 +17,7 @@ export default function ContactPage() {
       <PageIntro
         eyebrow="Contact"
         title="Start a conversation."
-        lede="Tell us what isn't working — or what should work better. We reply within one business day, usually sooner."
+        lede="Tell us what isn't working, or what should work better. We reply within one business day, usually sooner."
       />
 
       <section className="bg-cream">
