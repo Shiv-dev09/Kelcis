@@ -38,10 +38,23 @@ export default function ContactPage() {
                 </a>
               </div>
               <div>
-                <p className="eyebrow mb-4 text-bronze">Region</p>
-                <p className="font-serif text-2xl font-light">
-                  {company.region}
-                </p>
+                <p className="eyebrow mb-4 text-bronze">Telephone</p>
+                <a
+                  href={company.phoneHref}
+                  className="font-serif text-2xl font-light transition-colors hover:text-bronze"
+                >
+                  {company.phone}
+                </a>
+              </div>
+              <div>
+                <p className="eyebrow mb-4 text-bronze">Office</p>
+                <address className="font-serif text-xl font-light not-italic leading-relaxed">
+                  {company.address.map((line) => (
+                    <span key={line} className="block">
+                      {line}
+                    </span>
+                  ))}
+                </address>
               </div>
               <div>
                 <p className="eyebrow mb-4 text-bronze">Gulf standard time</p>

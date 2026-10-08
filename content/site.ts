@@ -117,6 +117,15 @@ export const industries = [
 export const company = {
   email: "hello@kelcis.com",
   region: "Serving the GCC",
+  phone: "+971 52 498 1377",
+  phoneHref: "tel:+971524981377",
+  /** Office address. The registered address on the licence differs. */
+  address: [
+    "Level 19, Sheikh Rashid Tower",
+    "Dubai World Trade Centre",
+    "Sheikh Zayed Road",
+    "Dubai, United Arab Emirates",
+  ],
   legalName: "Kelcis Technologies FZE LLC",
   registration: "Registered in the UAE",
   /** Free zone licence. Renews annually. Next expiry 28 September 2027. */
