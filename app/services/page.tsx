@@ -9,7 +9,7 @@ import { services } from "@/content/site";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Service operations consulting, implementation, integrations and automation for companies in the GCC. Six disciplines, one standard.",
+    "Service operations consulting, implementation, integrations and automation for companies in the GCC. Five disciplines, one standard.",
 };
 
 export default function ServicesPage() {
@@ -17,7 +17,7 @@ export default function ServicesPage() {
     <>
       <PageIntro
         eyebrow="Services"
-        title="Six disciplines. One standard."
+        title="Five disciplines. One standard."
         lede="Everything we offer exists to make your service operation dependable enough to forget about."
       />
 

@@ -17,22 +17,13 @@ export type ServiceTile = {
 
 export const services: ServiceTile[] = [
   {
-    slug: "freshworks",
-    title: "Freshworks Consulting",
-    description:
-      "Implementation, audits and architecture across the Freshworks suite, configured around how your teams actually work.",
-    tag: "Consulting",
-    surface: "gradient",
-    art: "sphere",
-  },
-  {
     slug: "managed-services",
     title: "Managed Services",
     description:
       "Your service operation, run and refined by people who own the outcome.",
     tag: "Operations",
-    surface: "ochre",
-    art: "coil",
+    surface: "gradient",
+    art: "sphere",
   },
   {
     slug: "customer-support",

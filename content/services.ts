@@ -10,31 +10,6 @@ export type ServiceDetail = {
 
 export const serviceDetails: ServiceDetail[] = [
   {
-    slug: "freshworks",
-    title: "Freshworks Consulting",
-    metaDescription:
-      "Freshworks implementation, audits and architecture across Freshdesk, Freshservice, Freshsales and the full suite, configured by an independent consultancy.",
-    intro:
-      "The platform was sold as simple. Making it fit your business is the craft.",
-    statement:
-      "We implement, audit and re-architect the Freshworks suite for companies that outgrew the default setup, or never fit it in the first place.",
-    points: [
-      {
-        title: "Implementations",
-        body: "Freshdesk, Freshservice, Freshsales and Freshchat, configured around your workflows, data and reporting, not the demo environment.",
-      },
-      {
-        title: "Audits & rescues",
-        body: "A working system nobody trusts is a failed system. We audit existing instances, find where reality diverged from intent, and repair it.",
-      },
-      {
-        title: "Architecture",
-        body: "Multi-brand desks, shared services, group structures. We design instances that survive your next reorganisation.",
-      },
-    ],
-    note: "Kelcis is an independent consultancy and is not affiliated with Freshworks Inc.",
-  },
-  {
     slug: "managed-services",
     title: "Managed Services",
     metaDescription:

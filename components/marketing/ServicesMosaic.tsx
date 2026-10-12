@@ -28,7 +28,15 @@ const surfaceClasses: Record<ServiceTile["surface"], string> = {
   bronze: "bg-bronze text-ink",
 };
 
-function Tile({ service, featured }: { service: ServiceTile; featured?: boolean }) {
+function Tile({
+  service,
+  featured,
+  wide,
+}: {
+  service: ServiceTile;
+  featured?: boolean;
+  wide?: boolean;
+}) {
   const Art = artMap[service.art];
 
   return (
@@ -36,7 +44,11 @@ function Tile({ service, featured }: { service: ServiceTile; featured?: boolean 
       href={`/services/${service.slug}`}
       className={`group relative flex flex-col justify-end overflow-hidden p-8 md:p-10 ${
         surfaceClasses[service.surface]
-      } ${featured ? "min-h-[480px] md:col-span-2 md:row-span-2" : "min-h-[340px]"}`}
+      } ${
+        featured
+          ? "min-h-[480px] md:col-span-2 md:row-span-2"
+          : `min-h-[340px] ${wide ? "md:col-span-2" : ""}`
+      }`}
     >
       {service.surface === "gradient" && (
         <span
@@ -103,7 +115,7 @@ export function ServicesMosaic() {
                 What we do
               </h2>
               <p className="mt-4 max-w-md font-serif text-xl font-light leading-snug text-ash md:text-2xl">
-                Six disciplines, one standard: it works, quietly, every time.
+                Five disciplines, one standard: it works, quietly, every time.
               </p>
             </div>
             <Link
@@ -117,10 +129,19 @@ export function ServicesMosaic() {
         </Reveal>
 
         <Reveal>
+          {/*
+            The featured tile occupies 2x2 of a 3-column grid, so the
+            remaining tiles must total 5 cells to close the grid. With four
+            of them the last one widens to fill the gap.
+          */}
           <div className="grid gap-2 md:grid-cols-3">
             <Tile service={featured} featured />
-            {rest.map((service) => (
-              <Tile key={service.slug} service={service} />
+            {rest.map((service, index) => (
+              <Tile
+                key={service.slug}
+                service={service}
+                wide={rest.length % 2 === 0 && index === rest.length - 1}
+              />
             ))}
           </div>
         </Reveal>
